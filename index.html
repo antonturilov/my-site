@@ -1,71 +1,156 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Портфолио Junior верстальщика</title>
-  </head>
-
-  <body>
-    <header class="page-header">
-      <div class="container">
-      <a class="header-email" href="mailto:antonturilov@gmail.com">antonturilov@gmail.com</a>
-      <a class="header-phone" href="tel:+79173572792">+7 917 357 27 92</a>
-    </div>
-    </header>
-
-    <section class="hero-image">
-      <div class="container">
-      <h1 class="heading">Турилов Антон</h1>
-      <p>Junior верстальщик</p>
-    </div>
+    <title>buh</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.0/lottie.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="container">
+            <div>Главная</div>
+            <div>Услуги</div>
+            <div>Отзывы</div>
+            <div>Цены</div>
+            <div>Контакты</div>
+            <div>
+                <div>+79173572792</div>
+                <div>email</div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="container">
+            <div class="sentence">
+                <div id="tag-id-lottie" class="sentence_item" style="width: 150px; height: 150px;">
+                    <script src="js/lottie.js"></script>
+                    <script>
+                        lottie.loadAnimation({
+                        container: document.getElementById('tag-id-lottie'), // the dom element that will contain the animation
+                        renderer: 'svg',
+                        loop: true,
+                        autoplay: true,
+                        path: 'js/animation_why.json' // the path to the animation json
+                    });
+                    </script>
+                </div>
+                <div class="sentence_item">
+                    <h2>С чего начать?</h2>
+                    <p>Получите бесплатную консультацию!</p>
+                    <button>Получить решение</button>
+                </div>
+            </div>
+        </div>
     </section>
+    <section>
+        <div class="container">
+            <div class="cause">
+                <h2><b>6 важных причин</b>, почему клиенты выбирают нас</h2>
 
-    <section class="intro">
-      <div class="container">
-      <h2 class="subheading">Давайте познакомимся</h2>
-      <figure class="user-image">
-        <img src="files/user2.jpg"  alt="Фотография Турилова Антона">
-      </figure>
-      <h3>Пара слов о себе</h3>
-      <p>У меня есть большая Цель- стать востребованным веб-программистом.</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Смотрю на задачи под разным углом, помогу решить любой вопрос. Что не знаю- выучу, в чем сомневаюсь- разберусь.</p>
-      <div class="skills">
-        <h3>Мои навыки</h3>
-        <dl class="skills-list">
-          <dt class="skill-html">HTML</dt>
-          <dd class="level"><div style="width: 60%;">60%</div></dd>
-          <dt class="skill-css">CSS</dt>
-          <dd class="level"><div style="width: 40%;">40%</div></dd>
-          <dt class="skill-js">JS</dt>
-          <dd class="level"><div style="width: 20%;">20%</div></dd>
-        </dl>
-      </div>
-    </div>
+                <div class="causes">
+                <div class="cause_item"><img src="img/test.svg" width="80px" alt="">
+                    <div>
+                    <h3>Многолетний опыт</h3>
+                    <p>Успешное решение вопросов на протяжении 20-ти лет</p>
+                    </div>
+                </div>
+                <div class="cause_item"><img src="img/test.svg" width="80px" alt="">
+                    <div>
+                    <h3>50-60%</h3>
+                    <p>Ваша экономия на штатном сотруднике бухгалтерии</p>
+                    </div>
+                </div>
+                <div class="cause_item"><img src="img/test.svg" width="80px" alt="">
+                    <div>
+                    <h3>Комплексное решение задач</h3>
+                    <p>Успешно работаем и решаем многочисленные и разнообразные задачи наших клиентов</p>
+                    </div>
+                </div>
+                <div class="cause_item"><img src="img/test.svg" width="80px" alt="">
+                    <div>
+                    <h3>85%+</h3>
+                    <p>клиентов обратилось к нам после первичной консультации</p>
+                    </div>
+                </div>
+                <div class="cause_item"><img src="img/test.svg" width="80px" alt="">
+                    <div>
+                    <h3>95%+</h3>
+                    <p>готовы порекомендовать нас своим друзьям</p>
+                    </div>
+                </div>
+                <div class="cause_item"><img src="img/test.svg" width="80px" alt="">
+                    <div>
+                    <h3>Нам доверяют</h3>
+                    <p>Более 30-ти компаний на обслуживании с 2000-го года</p>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
     </section>
-
-    <section class="portfolio">
-      <div class="container">
-      <h2 class="subheading">Мои работы</h2>
-      <figure class="project-image">
-        <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
-      </figure>
-      <h3>Сайт инструктора Кекса</h3>
-      <p>Небольшой лендинг о школе для начинающих.</p>
-      <a class="button" href="source/project/index.html">Открыть страницу</a>
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
-      <a class="button" href="source/project-2/index.html">Открыть блог</a>
-    </div>
+    <section>
+        <div class="container">
+            <h3>Тарифы|Услуги (цены на отдельной странице)</h3>
+            <div class="tariffs" id="tariffs">
+                <div class="item">
+                    <div class="item_head">
+                        <div class="item_title">ООО и АО</div>
+                        <div class="item_intro">Решения для компаний</div>
+                    </div>
+                    <ul>
+                        <li><a href="/services/buhgalterskie-uslugi/vedenie-buhgalterskogo-ucheta/vedenie-bukhgalterii-dlia-ooo.html">Ведение бухгалтерии</a></li><li><a href="/services/registraciya-firm/vnesenie-izmenenij-ustav-egryul.html">Изменения в уставе</a></li><li><a href="/services/registraciya-firm/reorganizaciya-ooo.html">Реорганизация</a></li><li><a href="/services/kadrovye-uslugi.html#ooo">Кадры</a></li><li><a href="/services/yuridicheskie-uslugi/zashhita-v-sude-arbitrazh.html">Юридическая защита</a></li><li><a href="/stati/sdacha-otchetnosti-dlia-ooo-ip.html#ooo">Сдача отчетности</a></li><li><a href="/services/nalogovye-spory/predstavlenie-interesov-nalogovoj-inspekcii.html#ooo">Представление интересов в налоговой</a></li><li><a href="/stati/optimizaciya-nalogooblozheniya.html">Оптимизация налогооблажения</a></li><li><a href="/services/registraciya-firm/likvidaciya-ooo.html">Ликвидация</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item_head">
+                        <div class="item_title">ИП</div>
+                        <div class="item_intro">Решения для индивидуальных предпринимателей</div>
+                    </div>
+                    <ul>
+                        <li><a href="/services/buhgalterskie-uslugi/vedenie-buhgalterskogo-ucheta/vedenie-bukhgalterii-ip.html">Ведение бухгалтерии</a></li><li><a href="/services/kadrovye-uslugi.html#ip">Кадры</a></li><li><a href="/stati/sdacha-otchetnosti-dlia-ooo-ip.html#ip">Сдача отчетности</a></li><li><a href="/stati/egrip.html">Внесение изменений в ЕГРИП</a></li><li><a href="/services/nalogovye-spory/predstavlenie-interesov-nalogovoj-inspekcii.html#ip">Представление интересов в налоговой</a></li><li><a href="/services/registraciya-firm/zakrytie-ip.html">Закрытие</a></li><li><a href="/stati/optimizaciya-nalogooblozheniya.html">Оптимизация налогооблажения</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="item_head">
+                        <div class="item_title">Новый бизнес</div>
+                        <div class="item_intro"></div>
+                    </div>
+                    <ul>
+                        <li><a href="/services/registraciya-firm/registraciya-ooo-ao.html">Организация ООО</a></li><li><a href="/services/registraciya-firm/otkrytie-ip.html">Открытие ИП</a></li><li><a href="/stati/razrabotka-biznes-planov.html">Составление бизнес - планов</a></li><li><a href="/stati/soprovozhdenie-biznesa-na-nachalnom-etape.html">Сопровождение юридическое, налоговое, бухгатерское</a></li><li><a href="/stati/optimizaciya-nalogooblozheniya.html">Оптимизация налогооблажения</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <footer class="page-footer">
-      <div class="container">
-        <a class="footer-email" href="mailto:antonturilov@gmail.com">antonturilov@gmail.com</a>
-        <a class="footer-phone" href="tel:+79173572792">+7 917 357 27 92</a>
-    </div>
-    </footer>
-  </body>
+    <section>
+        <div class="container">Наши проекты, кейсы, портфолио, решения</div>
+    </section>
+    <section>
+        <div class="container">Отзывы клиентов</div>
+    </section>
+    <section>
+        <div class="container">Наша команда</div>
+    </section>
+    <section>
+        <div class="container"></div>
+    </section>
+</main>
+<footer>
+    <nav>
+        <div class="container">
+            <div><a href="">политика конфиденциальности</a></div>
+            <div>соц.сети</div>
+            <div>
+                <div>+79173572792</div>
+                <div>email</div>
+            </div>
+        </div>
+    </nav>
+</footer>
+</body>
 </html>
